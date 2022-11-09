@@ -1,0 +1,61 @@
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-image: url("./imgs/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg");
+    background-size: cover;
+    height: 1000px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    padding: 20px 0;
+    width: 30vw;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.photo-credit {
+    bottom: 25px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 575px;
+}
+
+.photo-credit a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: lightgray;
+    height: 400px;
+}
+
+.form {
+    height: 300px;
+}
