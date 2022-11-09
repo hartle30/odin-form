@@ -1,3 +1,8 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
 .container {
     width: 100vw;
     display: flex;
@@ -34,14 +39,12 @@
 .photo-credit {
     bottom: 25px;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-top: 575px;
 }
 
 .photo-credit a {
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .right-container {
@@ -54,6 +57,12 @@
 .header {
     background-color: lightgray;
     height: 400px;
+}
+
+.header-text {
+    font-size: 1.6rem;
+    margin-top: 150px;
+    padding: 0 50px;
 }
 
 .form {
