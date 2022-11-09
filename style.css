@@ -5,6 +5,7 @@ html {
 
 .container {
     width: 100vw;
+    max-width: 2000px;
     display: flex;
 }
 
@@ -51,7 +52,6 @@ html {
     display: flex;
     flex-direction: column;
     width: 70vw;
-    border: 1px solid black;
 }
 
 .header {
